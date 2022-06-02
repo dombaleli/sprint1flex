@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+  
+}
+
+body{
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(218, 218, 218);
+    max-width: 75em;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-sup{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: .5em;
+    background-color: orange;
+}
+.header-inf{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+    background-color: orange;
+}
+.container2{
+    width: 100%;
+    display:flex;
+    flex-flow: row wrap;
+    margin-top: 1em;
+}
+main{
+    width: 59em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    background-color: rgb(232, 249, 84);
+    width: 13.5em;
+    margin-right: 0.5em;
+    margin-bottom: .5em;
+    margin-top:.5em ;
+    padding: 0.5em;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+aside{
+    width: 100%;
+    background-color: rgb(87, 50, 91);
+    padding: 0.5em;
+    margin-bottom: .5em;
+    margin-right: .7em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+article{
+    display: flex;
+    flex-direction: column;
+}
+.fotos1y2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fotos3y4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: .5em;
+}
+footer{
+    margin-top: .2em;
+    width: 100%;
+}
+.footer{
+    background-color: rgb(39, 112, 24);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+.foto1{
+    background-color: rgb(171, 166, 250);
+    width: 29em;
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    margin-top: .5em;
+}
+.foto2 {
+    background-color: rgb(185, 246, 80);
+    width: 29em;
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    margin-top: .5em;
+    margin-left: .2em;
+}
+.foto3{
+    background-color: rgb(244, 226, 127);
+    width: 29em;
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    margin-top: .2em;
+}
+.foto4{
+    background-color: rgb(247, 120, 120);
+    width: 29em;
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    margin-left: .2em;
+    margin-top: .2em;
+}
