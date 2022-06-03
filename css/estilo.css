@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-  
 }
 
 body{
@@ -9,6 +8,7 @@ body{
     flex-wrap: wrap;
     background-color: rgb(218, 218, 218);
     max-width: 75em;
+    height: auto;
 }
 .container{
     width: 100%;
@@ -36,31 +36,29 @@ body{
     width: 100%;
     display:flex;
     flex-flow: row wrap;
-   margin-left: .5em;
+    height: auto;
 }
 main{
-    width: 59em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+    width: 78%;
+    margin-left: 1%;
+    margin-right: 0;
     display: flex;
     flex-direction: column;
 }
 section{
     background-color: rgb(232, 249, 84);
-    width: 13.5em;
-    margin-right: 0.5em;
-    margin-bottom: .5em;
-    margin-top:.5em ;
-    padding: 0.5em;
-    height: auto;
+    width: 18%;
+    margin-bottom: 1%;
+    margin-top:1% ;
+    padding: 2%;
     display: flex;
     flex-flow: row wrap;
 }
 aside{
     background-color: rgb(87, 50, 91);
-    padding: 0.5em;
-    margin-bottom: .5em;
-    margin-right: .6em;
+    padding: 2%;
+    margin-bottom: 1%;
+    margin-right: 2%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -70,18 +68,20 @@ article{
     flex-direction: column;
 }
 .fotos1y2{
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .fotos3y4{
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-bottom: .5em;
+    margin-bottom: 1%;
 }
 footer{
-    margin: .6em;
+    margin: 1%;
     width: 100%;
 }
 .footer{
@@ -93,53 +93,65 @@ footer{
 }
 .foto1{
     background-color: rgb(171, 166, 250);
-    width: 29em;
-    height: 35em;
+    width: 48%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center ;
-    margin-top: .5em;
+    margin-top: 1%;
 }
 .foto2 {
     background-color: rgb(185, 246, 80);
-    width: 29em;
-    height: 35em;
+    width: 48%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center ;
-    margin-top: .5em;
-    margin-left: .2em;
+    margin-top: 1%;
+    margin-left: 1%;
 }
 .foto3{
     background-color: rgb(244, 226, 127);
-    width: 29em;
-    height: 35em;
+    width: 48%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center ;
-    margin-top: .2em;
+    margin-top: 1%;
 }
 .foto4{
     background-color: rgb(247, 120, 120);
-    width: 29em;
-    height: 35em;
+    width: 48%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center ;
-    margin-left: .2em;
-    margin-top: .2em;
+    margin-left: 1%;
+    margin-top: 1%;
 }
-@media (min-width: 48em) and (max-width: 64em){
+@media (min-width: 30em) and (max-width: 48em){
 
-  
     .container2{
         display:flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin-top: 1%;
     }
     main{
         width: 100%;
@@ -148,22 +160,61 @@ footer{
         flex-wrap: wrap;
     }
     section{
-        width: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        width: 100%;
     }
     aside{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        width: 100%;
     }
-   
 }
 
 
-@media (min-width: 20em) and (max-width: 30em) {
-  
-    /* moviles*/
-    
+@media (min-width: 20em) and (max-width: 29.9em){
+
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .header-sup{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .header-inf{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container2{
+        width: 100%; 
+        display: flex;
+        flex-direction:column;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    aside{
+        flex-direction: row;
+        width: 100%;
+    }
+    section{
+        width: 100%;
+        flex-direction: row;
+      
+    }
+    .fotos1y2{
+        flex-direction: column;
+       align-items: center;
+    }
+    .fotos3y4{ 
+        flex-direction: column;
+        align-items: center;
+    }
+
   }
